@@ -1,0 +1,618 @@
+
+//Dolgosrochni aktivi
+"I" = "Раздел I. Основные средства, нематериальные и другие долгосрочные активы"; //0100-0900
+
+//Tekushie aktivi
+"II" = "Раздел II. Товарно-материальные запасы"; //1000-2900
+"III" = "Раздел III. Расходы будущих периодов и отсроченные расходы — текущая часть"; //3100-3200
+"IV" = "Раздел IV. Счета к получению — текущая часть"; //4000-4900
+"V" = "Раздел V. Денежные средства, краткосрочные инвестиции и прочие текущие активы"; //5000-5900
+
+//Tekushie obyazatelstva
+"VI" = "Раздел VI. Текущие обязательства"; //6000-6900
+"VII" = "Раздел VII. Долгосрочные обязательства"; //7000-7900
+
+//Sobstvenniy kapital
+"VIII" = "Раздел VIII. Капитал, прибыль и резервы"; //8300-8900
+
+
+//0100
+"0100" = "0100 ASOSIY VOSITALARNI HISOBGA OLUVCHI SCHYOTLAR";
+"0110" = "0110 Yer ";
+"0111" = "0111 Yerni obodonlashtirish ";
+"0112" = "0112 Uzoq muddatli ijara shartnomasi bo‘yicha olingan asosiy vositalarni obodonlashtirish";
+"0120" = "0120 Binolar, inshootlar va uzatuvchi moslamalar";
+"0130" = "0130 Mashina va asbob-uskunalar";
+"0140" = "0140 Mebel va ofis jihozlari";
+"0150" = "0150 Kompyuter jihozlari va hisoblash texnikasi";
+"0160" = "0160 Transport vositalari";
+"0170" = "0170 Ishchi va mahsuldor hayvonlar";
+"0180" = "0180 Ko‘p yillik o‘simliklar";
+"0190" = "0190 Boshqa asosiy vositalar";
+"0199" = "0199 Konservatsiya qilingan asosiy vositalar";
+
+
+
+//0200
+"0200" = "0200 ASOSIY VOSITALARNING ESKIRISHINI HISOBGA OLUVCHI SCHYOTLAR";
+"0211" = "0211 Yerni obodonlashtirishning eskirishi";
+"0212" = "0212 Uzoq muddatli ijara shartnomasi bo‘yicha olingan asosiy vositalarni obodonlashtirishning eskirishi";
+"0220" = "0220 Bino, inshootlar va uzatuvchi moslamalarning eskirishi";
+"0230" = "0230 Mashina va asbob-uskunalarning eskirishi";
+"0240" = "0240 Mebel va ofis jihozlarining eskirishi";
+"0250" = "0250 Kompyuter jihozlari va hisoblash texnikasining eskirishi";
+"0260" = "0260 Transport vositalarining eskirishi";
+"0270" = "0270 Ishchi hayvonlarning eskirishi";
+"0280" = "0280 Ko‘p yillik o‘simliklarning eskirishi";
+"0290" = "0290 Boshqa asosiy vositalarning eskirishi";
+"0299" = "0299 Uzoq muddatli ijara shartnomasi bo‘yicha olingan asosiy vositalarning eskirishi";
+
+
+//0300
+"0300" = "0300 UZOQ MUDDATLI IJARA SHARTNOMASI BO‘YICHA OLINGAN ASOSIY VOSITALARNI HISOBGA OLUVCHI SCHYOTLAR";
+"0310" = "0310 Uzoq muddatli ijara shartnomasi bo‘yicha olingan asosiy vositalar";
+
+
+ 
+//0400
+"0400" = "0400 NOMODDIY AKTIVLARNI HISOBGA OLUVCHI SCHYOTLAR";
+"0410" = "0410 Patentlar, litsenziyalar va nou-xau";
+"0420" = "0420 Savdo markalari, tovar belgilari va sanoat namunalari";
+"0430" = "0430 Dasturiy taʼminot";
+"0440" = "0440 Yer va tabiat resurslaridan foydalanish huquqlari";
+"0450" = "0450 Tashkiliy xarajatlar";
+"0460" = "0460 Franchayz";
+"0470" = "0470 Mualliflik huquqlari";
+"0480" = "0480 Gudvill";
+"0490" = "0490 Boshqa nomoddiy aktivlar";
+
+
+
+//0500
+"0500" = "0500 NOMODDIY AKTIVLAR AMORTIZATSIYASINI HISOBGA OLUVCHI SCHYOTLAR";
+"0510" = "0510 Patentlar, litsenziyalar va nou-xauning amortizatsiyasi";
+"0520" = "0520 Savdo markalari, tovar belgilari va sanoat namunalarining amortizatsiyasi";
+"0530" = "0530 Dasturiy taʼminotning amortizatsiyasi";
+"0540" = "0540 Yer va tabiat resurslaridan foydalanish huquqlarining amortizatsiyasi";
+"0550" = "0550 Tashkiliy xarajatlarning amortizatsiyasi";
+"0560" = "0560 Franchayzning amortizatsiyasi";
+"0570" = "0570 Mualliflik huquqlarining amortizatsiyasi";
+"0590" = "0590 Boshqa nomoddiy aktivlarning amortizatsiyasi";
+
+
+//0600
+"0600" = "0600 UZOQ MUDDATLI INVESTITSIYALARNI HISOBGA OLUVCHI SCHYOTLAR";
+"0610" = "0610 Qimmatli qog‘ozlar";
+"0620" = "0620 Shuʼba xo‘jalik jamiyatlariga investitsiyalar";
+"0630" = "0630 Qaram xo‘jalik jamiyatlariga investitsiyalar";
+"0640" = "0640 Chet el kapitali mavjud bo‘lgan korxonalarga investitsiyalar";
+"0690" = "0690 Boshqa uzoq muddatli investitsiyalar";
+  
+ 
+//0700
+"0700" = "0700 O‘RNATILADIGAN ASBOB-USKUNALARNI HISOBGA OLUVCHI SCHYOTLAR";
+"0710" = "0710 O‘rnatiladigan asbob-uskunalar - mahalliy";
+"0720" = "0720 O‘rnatiladigan asbob-uskunalar - xorijiy";
+
+//0800
+"0800" = "0800 KAPITAL QO‘YILMALARNI HISOBGA OLUVCHI SCHYOTLAR";
+"0810" = "0810 Tugallanmagan qurilish";
+"0820" = "0820 Asosiy vositalarni xarid qilish";
+"0830" = "0830 Nomoddiy aktivlarni xarid qilish";
+"0840" = "0840 Asosiy podani tashkil qilish";
+"0850" = "0850 Yerni obodonlashtirishga kapital qo‘yilmalar";
+"0860" = "0860 Uzoq muddatli ijara shartnomasi bo‘yicha olingan asosiy vositalarga kapital qo‘yilmalar";
+"0890" = "0890 Boshqa kapital qo‘yilmalar";
+
+
+//0900
+"0900" = "0900 UZOQ MUDDATLI DEBITOR QARZLARI VA KECHIKTIRILGAN XARAJATLARNI HISOBGA OLUVCHI SCHYOTLAR";
+"0910" = "0910 Olingan veksellar";
+"0920" = "0920 Uzoq muddatli ijara bo‘yicha olinadigan to‘lovlar";
+"0930" = "0930 Xodimlarning uzoq muddatli qarzlari";
+"0940" = "0940 Boshqa uzoq muddatli debitor qarzlar";
+"0950" = "0950 Vaqtinchalik farqlar bo‘yicha kechiktirilgan daromad (foyda) solig‘i";
+"0960" = "0960 Diskont (chegirma)lar bo‘yicha uzoq muddatli kechiktirilgan xarajatlar";
+"0990" = "0990 Boshqa uzoq muddatli kechiktirilgan xarajatlar";
+
+
+
+//1000
+"1000" = "1000 MATERIALLARNI HISOBGA OLUVCHI SCHYOTLAR";
+"1010" = "1010 Xom ashyo va materiallar";
+"1020" = "1020 Sotib olingan yarim tayyor mahsulotlar va butlovchi buyumlar";
+"1030" = "1030 Yoqilg‘ilar";
+"1040" = "1040 Ehtiyot qismlar";
+"1050" = "1050 Qurilish materiallari";
+"1060" = "1060 Idish va idishbop materiallar";
+"1070" = "1070 Chetga qayta ishlash uchun berilgan materiallar";
+"1080" = "1080 Inventar va xo‘jalik jihozlari";
+"1090" = "1090 Boshqa materiallar";
+
+
+//1100
+"1100" = "1100 O‘STIRISHDAGI VA BOQUVDAGI HAYVONLARNI HISOBGA OLUVCHI SCHYOTLAR";
+"1110" = "1110 O‘stirishdagi hayvonlar";
+"1120" = "1120 Bo‘rdoqidagi hayvonlar";
+
+
+
+//1200
+"1200" = "1200";
+
+
+
+//1300
+"1300" = "1300";
+
+
+
+//1400
+"1400" = "1400";
+
+
+
+//1500
+"1500" = "1500 MATERIALLARNI TAYYORLASH VA XARID QILISHNI HISOBGA OLUVCHI SCHYOTLAR";
+"1510" = "1510 Materiallarni tayyorlash va xarid qilish";
+
+
+
+//1600
+"1600" = "1600 MATERIALLAR QIYMATIDAGI FARQLARNI HISOBGA OLUVCHI SCHYOTLAR";
+"1610" = "1610 Materiallar qiymatidagi farqlar";
+
+
+
+//1700
+"1700" = "1700";
+
+
+
+//1800
+"1800" = "1800";
+
+
+//1900
+"1900" = "1900";
+
+//2000
+"2000" = "2000 ASOSIY ISHLAB CHIQARISHNI HISOBGA OLUVCHI SCHYOTLAR";
+"2010" = "2010 Asosiy ishlab chiqarish";
+
+
+
+//2100
+"2100" = "2100 O‘ZIDA ISHLAB CHIQARILGAN YARIM TAYYOR MAHSULOTLARNI HISOBGA OLUVCHI SCHYOTLAR";
+"2110" = "2110 O‘zida ishlab chiqarilgan yarim tayyor mahsulotlar";
+
+
+
+//2200
+"2200" = "2200";
+
+
+
+//2300
+"2300" = "2300 YORDAMCHI ISHLAB CHIQARISHNI HISOBGA OLUVCHI SCHYOTLAR";
+"2310" = "2310 Yordamchi ishlab chiqarish";
+
+
+
+//2400
+"2400" = "2400";
+
+
+
+//2500
+"2500" = "2500 UMUMISHLAB CHIQARISH XARAJATLARINI HISOBGA OLUVCHI SCHYOTLAR";
+"2510" = "2510 Umumishlab chiqarish xarajatlari";
+
+
+
+//2600
+"2600" = "2600 ISHLAB CHIQARISHDAGI YAROQSIZ MAHSULOTLARNI HISOBGA OLUVCHI SCHYOTLAR";
+"2610" = "2610 Ishlab chiqarishdagi yaroqsiz mahsulotlar";
+
+
+
+//2700
+"2700" = "2700 XIZMAT KO‘RSATUVCHI XO‘JALIKLARNI HISOBGA OLUVCHI SCHYOTLAR";
+"2710" = "2710 Xizmat ko‘rsatuvchi xo‘jaliklar";
+
+
+
+//2800
+"2800" = "2800 TAYYOR MAHSULOTLARNI HISOBGA OLUVCHI SCHYOTLAR";
+"2810" = "2810 Ombordagi tayyor mahsulotlar";
+"2820" = "2820 Ko‘rgazmadagi tayyor mahsulotlar ";
+"2830" = "2830 Komissiyaga berilgan tayyor mahsulotlar";
+
+
+
+//2900
+"2900" = "2900 TOVARLARNI HISOBGA OLUVCHI SCHYOTLAR";
+"2910" = "2910 Ombordagi tovarlar";
+"2920" = "2920 Chakana savdodagi tovarlar";
+"2930" = "2930 Ko‘rgazmadagi tovarlar";
+"2940" = "2940 Prokatdagi buyumlar";
+"2950" = "2950 Tovarlar bilan band va bo‘sh idishlar";
+"2960" = "2960 Komissiyaga berilgan tovarlar";
+"2970" = "2970 Yo‘ldagi tovarlar";
+"2980" = "2980 Savdo ustamasi";
+"2990" = "2990 Boshqa tovarlar";
+
+
+
+//3000
+"3000" = "3000";
+
+
+
+//3100
+"3100" = "3100 KELGUSI DAVR XARAJATLARINI HISOBGA OLUVCHI SCHYOTLAR";
+"3110" = "3110 Oldindan to‘langan ijara haqi";
+"3120" = "3120 Oldindan to‘langan xizmat haqi";
+"3190" = "3190 Boshqa kelgusi davr xarajatlari";
+
+
+
+//3200
+"3200" = "3200 KECHIKTIRILGAN XARAJATLARNI HISOBGA OLUVCHI SCHYOTLAR";
+"3210" = "3210 Vaqtinchalik farqlar bo‘yicha kechiktirilgan daromad (foyda) solig‘i";
+"3220" = "3220 Diskont (chegirma)lar bo‘yicha kechiktirilgan xarajatlar";
+"3290" = "3290 Boshqa kechiktirilgan xarajatlar";
+
+
+
+//3300
+"3300" = "3300";
+
+
+
+//3400
+"3400" = "3400";
+
+
+
+//3500
+"3500" = "3500";
+
+
+
+//3600
+"3600" = "3600";
+
+
+
+//3700
+"3700" = "3700";
+
+
+
+//3800
+"3800" = "3800";
+
+
+
+//3900
+"3900" = "3900";
+
+
+
+//4000
+"4000" = "4000 OLINADIGAN SCHYOTLAR";
+"4010" = "4010 Xaridorlar va buyurtmachilardan olinadigan schyotlar";
+"4020" = "4020 Olingan veksellar";
+
+
+
+//4100
+"4100" = "4100 AJRATILGAN BO‘LINMALAR, SHUʼBA VA QARAM XO‘JALIK JAMIYATLARIDAN OLINADIGAN SCHYOTLAR";
+"4110" = "4110 Ajratilgan bo‘linmalardan olinadigan schyotlar";
+"4120" = "4120 Shuʼba va qaram xo‘jalik jamiyatlaridan olinadigan schyotlar";
+
+
+//4200
+"4200" = "4200 XODIMLARGA BERILGAN BO‘NAKLARNI HISOBGA OLUVCHI 4200 SCHYOTLAR";
+"4210" = "4210 Mehnat haqi bo‘yicha berilgan bo‘naklar";
+"4220" = "4220 Xizmat safarlariga berilgan bo‘naklar";
+"4230" = "4230 Umumxo‘jalik xarajatlari uchun berilgan bo‘naklar";
+"4290" = "4290 Xodimlarga berilgan boshqa bo‘naklar";
+
+
+//4300
+"4300" = "4300 MOL YETKAZIB BERUVCHILAR VA PUDRATCHILARGA BERILGAN BO‘NAKLARNI HISOBGA OLUVCHI SCHYOTLAR";
+"4310" = "4310 TMQlar uchun mol yetkazib beruvchilar va pudratchilarga berilgan bo‘naklar";
+"4320" = "4320 Uzoq muddatli aktivlar uchun mol yetkazib beruvchilar va pudratchilarga berilgan bo‘naklar";
+"4330" = "4330 Boshqa berilgan bo‘naklar";
+
+
+
+//4400
+"4400" = "4400 BYUDJETGA BO‘NAK TO‘LOVLARINI HISOBGA OLUVCHI SCHYOTLAR";
+"4410" = "4410 Byudjetga soliqlar va yig‘imlar bo‘yicha bo‘nak to‘lovlari (turlari bo‘yicha)";
+
+
+
+//4500
+"4500" = "4500 MAQSADLI DAVLAT JAMG‘ARMALARIGA VA SUG‘URTALAR BO‘YICHA BO‘NAK TO‘LOVLARINI HISOBGA OLUVCHI SCHYOTLAR";
+"4510" = "4510 Sug‘urtalar bo‘yicha bo‘nak to‘lovlari";
+"4520" = "4520 Maqsadli davlat jamg‘armalariga bo‘nak to‘lovlari";
+
+
+
+//4600
+
+"4600" = "4600 USTAV KAPITALIGA TAʼSISCHILARNING ULUSHLARI BO‘YICHA QARZINI HISOBGA OLUVCHI SCHYOTLAR";
+"4610" = "4610 Ustav kapitaliga taʼsischilarning ulushlari bo‘yicha qarzi";
+
+
+
+//4700
+"4700" = "4700 XODIMLARNING BOSHQA OPERATSIYALAR BO‘YICHA QARZINI HISOBGA OLUVCHI SCHYOTLAR";
+"4710" = "4710 Kreditga sotilgan tovarlar bo‘yicha xodimlarning qarzi";
+"4720" = "4720 Berilgan qarzlar bo‘yicha xodimlarning qarzi";
+"4730" = "4730 Moddiy zararni qoplash bo‘yicha xodimlarning qarzi";
+"4790" = "4790 Xodimlarning boshqa qarzlari";
+
+
+
+//4800
+"4800" = "4800 TURLI DEBITORLAR QARZLARINI HISOBGA OLUVCHI SCHYOTLAR";
+"4810" = "4810 Uzoq muddatli ijara bo‘yicha olinadigan joriy to‘lovlar";
+"4820" = "4820 Qisqa muddatli ijara bo‘yicha olinadigan to‘lovlar";
+"4830" = "4830 Olinadigan foizlar";
+"4840" = "4840 Olinadigan dividendlar";
+"4850" = "4850 Olinadigan royalti";
+"4860" = "4860 Daʼvolar bo‘yicha olinadigan schyotlar";
+"4890" = "4890 Boshqa debitorlar qarzlari";
+
+
+
+
+//4900
+"4900" = "4900 DARGUMON QARZLAR BO‘YICHA REZERVNI HISOBGA OLUVCHI SCHYOTLAR";
+"4910" = "4910 Dargumon qarzlar bo‘yicha rezerv";
+
+
+
+//5000
+"5000" = "5000 KASSADAGI PUL MABLAG‘LARINI HISOBGA OLUVCHI SCHYOTLAR";
+"5010" = "5010 Milliy valyutadagi pul mablag‘lari";
+"5020" = "5020 Chet el valyutasidagi pul mablag‘lari";
+
+
+//5100
+"5100" = "5100 HISOB-KITOB SCHYOTIDAGI PUL MABLAG‘LARINI HISOBGA OLUVCHI SCHYOTLAR";
+"5110" = "5110 Hisob-kitob schyoti";
+
+
+//5200
+"5200" = "5200 CHET EL VALYUTASIDAGI PUL MABLAG‘LARINI HISOBGA OLUVCHI SCHYOTLAR";
+"5210" = "5210 Mamlakat ichidagi valyuta schyotlari";
+"5220" = "5220 Chet eldagi valyuta schyotlari";
+
+
+//5300
+"5300" = "5300";
+
+
+//5400
+"5400" = "5400";
+
+
+//5500
+"5500" = "5500 BANKDAGI MAXSUS SCHYOTLARDAGI PUL MABLAG‘LARINI HISOBGA OLUVCHI SCHYOTLAR";
+"5510" = "5510 Akkreditivlar";
+"5520" = "5520 Chek daftarchalari";
+"5530" = "5530 Boshqa maxsus schyotlar";
+
+
+//5600
+"5600" = "5600 PUL EKVIVALENTLARINI HISOBGA OLUVCHI SCHYOTLAR";
+"5610" = "5610 Pul ekvivalentlari (turlari bo‘yicha)";
+
+
+//5700
+"5700" = "5700 YO‘LDAGI PUL MABLAG‘ (O‘TKAZMA)LARINI HISOBGA OLUVCHI SCHYOTLAR";
+"5710" = "5710 Yo‘ldagi pul mablag‘ (o‘tkazma)lari";
+
+
+//5800
+"5800" = "5800 QISQA MUDDATLI INVESTITSIYALARNI HISOBGA OLUVCHI SCHYOTLAR";
+"5810" = "5810 Qimmatli qog‘ozlar";
+"5830" = "5830 Berilgan qisqa muddatli qarzlar";
+"5890" = "5890 Boshqa joriy investitsiyalar";
+
+
+//5900
+"5900" = "5900 KAMOMADLAR VA QIYMATLIKLARNING BUZILISHIDAN YO‘QOTISHLAR VA BOSHQA JORIY AKTIVLARNI HISOBGA OLUVCHI SCHYOTLAR";
+"5910" = "5910 Kamomadlar va qiymatliklarning buzilishidan yo‘qotishlar";
+"5920" = "5920 Boshqa joriy aktivlar";
+
+
+//6000
+"6000" = "6000 MOL YETKAZIB BERUVCHILAR VA PUDRATCHILARGA TO‘LANADIGAN SCHYOTLAR";
+"6010" = "6010 Mol yetkazib beruvchilar va pudratchilarga to‘lanadigan schyotlar";
+"6020" = "6020 Berilgan veksellar";
+
+
+//6100
+"6100" = "6100 AJRATILGAN BO‘LINMALAR, SHUʼBA VA QARAM XO‘JALIK JAMIYATLARIGA TO‘LANADIGAN SCHYOTLAR";
+"6110" = "6110 Ajratilgan bo‘linmalarga to‘lanadigan schyotlar";
+"6120" = "6120 Shuʼba va qaram xo‘jalik jamiyatlariga to‘lanadigan schyotlar";
+
+
+//6600
+"6200" = "6200 KECHIKTIRILGAN MAJBURIYATLARNI HISOBGA OLUVCHI SCHYOTLAR";
+"6210" = "6210 Diskont (chegirma)lar ko‘rinishidagi kechiktirilgan daromadlar";
+"6220" = "6220 Mukofot (ustama)lar ko‘rinishidagi kechiktirilgan daromadlar";
+"6230" = "6230 Boshqa kechiktirilgan daromadlar";
+"6240" = "6240 Soliqlar va majburiy to‘lovlar bo‘yicha kechiktirilgan majburiyatlar";
+"6250" = "6250 Vaqtinchalik farqlar bo‘yicha kechiktirilgan daromad (foyda) solig‘i bo‘yicha majburiyatlar";
+"6290" = "6290 Boshqa kechiktirilgan majburiyatlar";
+
+
+//6300
+"6300" = "6300 OLINGAN BO‘NAKLARNI HISOBGA OLUVCHI SCHYOTLAR";
+"6310" = "6310 Xaridorlar va buyurtmachilardan olingan bo‘naklar";
+"6320" = "6320 Aksiyaga obunachilardan olingan bo‘naklar";
+"6390" = "6390 Boshqa olingan bo‘naklar";
+
+
+//6400
+"6400" = "6400 BYUDJETGA TO‘LOVLAR BO‘YICHA QARZNI HISOBGA OLUVCHI SCHYOTLAR";
+"6410" = "6410 Byudjetga to‘lovlar bo‘yicha qarz (turlari bo‘yicha)";
+
+
+//6500
+"6500" = "6500 SUG‘URTA VA MAQSADLI DAVLAT JAMG‘ARMALARIGA TO‘LOVLAR BO‘YICHA QARZNI HISOBGA OLUVCHI SCHYOTLAR";
+"6510" = "6510 Sug‘urta bo‘yicha to‘lovlar";
+"6520" = "6520 Maqsadli davlat jamg‘armalariga to‘lovlar";
+
+
+//6600
+"6600" = "6600 TAʼSISCHILARGA BO‘LGAN QARZNI HISOBGA OLUVCHI SCHYOTLAR";
+"6610" = "6610 To‘lanadigan dividendlar";
+"6620" = "6620 Chiqib ketayotgan taʼsischilarga ulushlari bo‘yicha qarz";
+"6630" = "6630 Ta'sischilarning ustav kapitalini oshirish uchun qo'shgan hissalari";
+
+
+//6700
+"6700" = "6700 MEHNAT HAQI BO‘YICHA XODIM BILAN HISOBLASHISHLARNI HISOBGA OLUVCHI SCHYOTLAR";
+"6710" = "6710 Mehnat haqi bo‘yicha xodim bilan hisoblashishlar";
+"6720" = "6720 Deponentlangan ish haqi";
+
+
+//6800
+"6800" = "6800 QISQA MUDDATLI KREDITLAR VA QARZLARNI HISOBGA OLUVCHI SCHYOTLAR";
+"6810" = "6810 Qisqa muddatli bank kreditlari";
+"6820" = "6820 Qisqa muddatli qarzlar";
+"6830" = "6830 To‘lanadigan obligatsiyalar";
+"6840" = "6840 To‘lanadigan veksellar";
+
+
+//6900
+"6900" = "6900 TURLI KREDITORLARGA BO‘LGAN QARZLARNI HISOBGA OLUVCHI SCHYOTLAR";
+"6910" = "6910 To‘lanadigan qisqa muddatli ijara";
+"6920" = "6920 Hisoblangan foizlar";
+"6930" = "6930 Royalti bo‘yicha qarz";
+"6940" = "6940 Kafolatlar bo‘yicha qarz";
+"6950" = "6950 Uzoq muddatli majburiyatlar - joriy qismi";
+"6960" = "6960 Daʼvolar bo‘yicha to‘lanadigan schyotlar";
+"6970" = "6970 Hisobdor shaxslarga bo‘lgan qarz";
+"6990" = "6990 Boshqa majburiyatlar";
+
+
+//7000
+"7000" = "7000 MOL YETKAZIB BERUVCHILAR VA PUDRATCHILARGA TO‘LANADIGAN UZOQ MUDDATLI SCHYOTLAR";
+"7010" = "7010 Mol yetkazib beruvchilar va pudratchilarga to‘lanadigan schyotlar";
+"7020" = "7020 Berilgan veksellar";
+
+
+//7100
+"7100" = "7100 AJRATILGAN BO‘LINMALAR, SHUʼBA VA QARAM XO‘JALIK JAMIYATLARIGA BO‘LGAN UZOQ MUDDATLI QARZ";
+"7110" = "7110 Ajratilgan bo‘linmalarga bo‘lgan uzoq muddatli qarz";
+"7120" = "7120 Shuʼba va qaram xo‘jalik jamiyatlariga bo‘lgan uzoq muddatli qarz";
+
+
+//7200
+"7200" = "7200 KECHIKTIRILGAN UZOQ MUDDATLI MAJBURIYATLARNI HISOBGA OLUVCHI SCHYOTLAR";
+"7210" = "7210 Diskont (chegirma)lar ko‘rinishidagi uzoq muddatli kechiktirilgan daromadlar";
+"7220" = "7220 Mukofot (ustama)lar ko‘rinishidagi uzoq muddatli kechiktirilgan daromadlar";
+"7230" = "7230 Boshqa uzoq muddatli kechiktirilgan daromadlar";
+"7240" = "7240 Soliqlar va majburiy to‘lovlar bo‘yicha uzoq muddatli kechiktirilgan majburiyatlar";
+"7250" = "7250 Vaqtinchalik farqlar bo‘yicha kechiktirilgan daromad (foyda) solig‘i bo‘yicha uzoq muddatli majburiyatlar";
+"7290" = "7290 Boshqa uzoq muddatli kechiktirilgan majburiyatlar";
+
+
+//7300
+"7300" = "7300 XARIDORLAR VA BUYURTMACHILARDAN OLINGAN BO‘NAKLARNI HISOBGA OLUVCHI SCHYOTLAR";
+"7310" = "7310 Xaridorlar va buyurtmachilardan olingan bo‘naklar";
+
+
+//7400
+"7400" = "7400";
+
+
+//7500
+"7500" = "7500";
+
+
+//7600
+"7600" = "7600";
+
+
+//7700
+"7700" = "7700";
+
+
+//7800
+"7800" = "7800 UZOQ MUDDATLI KREDITLAR VA QARZLARNI HISOBGA OLUVCHI SCHYOTLAR";
+"7810" = "7810 Uzoq muddatli bank kreditlari";
+"7820" = "7820 Uzoq muddatli qarzlar";
+"7830" = "7830 To‘lanadigan obligatsiyalar";
+"7840" = "7840 To‘lanadigan veksellar";
+
+
+//7900
+"7900" = "7900 TURLI KREDITORLARGA BO‘LGAN UZOQ MUDDATLI QARZLARNI HISOBGA OLUVCHI SCHYOTLAR";
+"7910" = "7910 To‘lanadigan uzoq muddatli ijara";
+"7920" = "7920 Turli kreditorlarga bo‘lgan boshqa uzoq muddatli qarzlar";
+
+
+//8000
+"8000" = "8000";
+
+
+//8100
+"8100" = "8100";
+
+
+//8200
+"8200" = "8200 ";
+//8300
+"8300" = "8300 USTAV KAPITALINI HISOBGA OLUVCHI SCHYOTLAR";
+"8310" = "8310 Oddiy aksiyalar";
+"8320" = "8320 Imtiyozli aksiyalar";
+"8330" = "8330 Pay va ulushlar";
+
+
+//8400
+"8400" = "8400 QO‘SHILGAN KAPITALNI HISOBGA OLUVCHI SCHYOTLAR";
+"8410" = "8410 Emissiya daromadi";
+"8420" = "8420 Ustav kapitalini shakllantirishdagi kurs farqi";
+
+
+//8500
+"8500" = "8500 REZERV KAPITALINI HISOBGA OLUVCHI SCHYOTLAR";
+"8510" = "8510 Mulkni qayta baholash bo‘yicha tuzatishlar";
+"8520" = "8520 Rezerv kapitali";
+"8530" = "8530 Tekinga olingan mulk";
+
+
+//8600
+"8600" = "8600 SOTIB OLINGAN XUSUSIY AKSIYALARNI HISOBGA OLUVCHI SCHYOTLAR";
+"8610" = "8610 Sotib olingan xususiy aksiyalar - oddiy";
+"8620" = "8620 Sotib olingan xususiy aksiyalar - imtiyozli";
+
+
+//8700
+"8700" = "8700 TAQSIMLANMAGAN FOYDA (QOPLANMAGAN ZARAR)NI HISOBGA OLUVCHI SCHYOTLAR";
+"8710" = "8710 Hisobot davrining taqsimlanmagan foydasi (qoplanmagan zarari)";
+"8720" = "8720 Jamg‘arilgan foyda (qoplanmagan zarar)";
+
+
+//8800
+"8800" = "8800 MAQSADLI TUSHUMLARNI HISOBGA OLUVCHI SCHYOTLAR";
+"8810" = "8810 Grantlar";
+"8820" = "8820 Subsidiyalar";
+"8830" = "8830 Aʼzolik badallari";
+"8840" = "8840 Maqsadli foydalanadigan soliq imtiyozlari";
+"8890" = "8890 Boshqa maqsadli tushumlar";
+
+
+//8900
+"8900" = "8900 KELGUSI XARAJATLAR VA TO‘LOVLAR REZERVLARINI HISOBGA OLUVCHI SCHYOTLAR";
+"8910" = "8910 Kelgusi xarajatlar va to‘lovlar rezervlari";
